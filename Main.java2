@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+    String name = "Roberto Rico"; // %s
+    String country = "United States";
+    int age = 19; // %d
+    String school = "Coop Tech";
+    double gta = 3.0; // %f
+    char percentSign = '%'; // %c
+    boolean TellingTheTruth = false; // %b
+
+    String formattedString = String.format("My name is %s. I am from the %s. I am %d years old. I'm currently attending %s. My GPA is %f. I have atteneded 100%c of my classes. These are all %b claims.", name, country, age, school, gta, percentSign, TellingTheTruth);
+    
+    System.out.println(formattedString);
+  }
+}
