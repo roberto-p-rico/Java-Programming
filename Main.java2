@@ -1,5 +1,5 @@
 class Main {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
     String name = "Roberto Rico"; // %s
     String country = "United States";
     int age = 19; // %d
