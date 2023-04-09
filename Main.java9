@@ -1,0 +1,19 @@
+import java.util.HashMap;
+
+class Main {
+  public static void main(String[] args) {
+    HashMap<String, Integer> examScores = new HashMap<String, Integer>();
+
+    examScores.put("Math", 75);
+    examScores.put("Science", 75);
+    examScores.put("English", 85);
+    examScores.put("Spanish", 95);
+    examScores.put("Web Development", 85);
+
+    examScores.forEach((subject, score) -> {
+      examScores.replace(subject, score - 10);
+    });
+
+    System.out.println(examScores.toString());
+  }
+}
